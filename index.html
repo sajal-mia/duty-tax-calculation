@@ -298,7 +298,7 @@
         }
     }
 
-    const tariffDB = { 
+const tariffDB = { 
 "1012100": { name: "Pure-bred breeding animals of horses..", cd: 0.05, rd: 0.04, sd: 0, vat: 0, ait: 0, at: 0 },
 "1012900": { name: "Other horses", cd: 0.05, rd: 0.04, sd: 0, vat: 0, ait: 0, at: 0 },
 "1013000": { name: "Asses", cd: 0.05, rd: 0.04, sd: 0, vat: 0, ait: 0, at: 0 },
@@ -7764,7 +7764,8 @@
 "98010072": { name: "Cellular Smartphone,Value exceeding 30000.00 taka but not exceeding 60000.00 taka", cd: 100, rd: 0, sd: 0, vat: 0, ait: 0, at: 0 },
 "98010079": { name: "Cellular Smartphone,Value exceeding 60000.00 taka", cd: 250, rd: 0, sd: 0, vat: 0, ait: 0, at: 0 },
 "98010090": { name: "Goods treated as \"Baggage\" - Chandeliers (Jharbatti)", cd: 3, rd: 0.04, sd: 0, vat: 0, ait: 0, at: 0.075 },
-    };
+
+};
 
     function calculateRow(row, totalItemsInTable) {
         const price = parseFloat(row.querySelector('.in-price').value) || 0;
